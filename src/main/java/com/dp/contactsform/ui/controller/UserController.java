@@ -34,7 +34,6 @@ public class UserController {
 		return users;
 	}
 	
-	@CrossOrigin(origins = "http://localhost:8080/users")
 	@GetMapping(path="/{userId}",
 			produces = {
 				MediaType.APPLICATION_XML_VALUE,
